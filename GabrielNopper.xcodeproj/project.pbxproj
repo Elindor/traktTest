@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D720F35E1C593A88007EC02B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D720F35D1C593A88007EC02B /* main.m */; };
+		D720F3611C593A88007EC02B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D720F3601C593A88007EC02B /* AppDelegate.m */; };
+		D720F3641C593A88007EC02B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D720F3631C593A88007EC02B /* ViewController.m */; };
+		D720F3671C593A88007EC02B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D720F3651C593A88007EC02B /* Main.storyboard */; };
+		D720F3691C593A88007EC02B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D720F3681C593A88007EC02B /* Assets.xcassets */; };
+		D720F36C1C593A88007EC02B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D720F36A1C593A88007EC02B /* LaunchScreen.storyboard */; };
+		D720F3771C593A88007EC02B /* GabrielNopperTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D720F3761C593A88007EC02B /* GabrielNopperTests.m */; };
+		D720F3821C593A88007EC02B /* GabrielNopperUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D720F3811C593A88007EC02B /* GabrielNopperUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D720F3731C593A88007EC02B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D720F3511C593A87007EC02B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D720F3581C593A87007EC02B;
+			remoteInfo = GabrielNopper;
+		};
+		D720F37E1C593A88007EC02B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D720F3511C593A87007EC02B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D720F3581C593A87007EC02B;
+			remoteInfo = GabrielNopper;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D720F3591C593A88007EC02B /* GabrielNopper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GabrielNopper.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D720F35D1C593A88007EC02B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D720F35F1C593A88007EC02B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D720F3601C593A88007EC02B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D720F3621C593A88007EC02B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D720F3631C593A88007EC02B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D720F3661C593A88007EC02B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D720F3681C593A88007EC02B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D720F36B1C593A88007EC02B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D720F36D1C593A88007EC02B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D720F3721C593A88007EC02B /* GabrielNopperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GabrielNopperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D720F3761C593A88007EC02B /* GabrielNopperTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GabrielNopperTests.m; sourceTree = "<group>"; };
+		D720F3781C593A88007EC02B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D720F37D1C593A88007EC02B /* GabrielNopperUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GabrielNopperUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D720F3811C593A88007EC02B /* GabrielNopperUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GabrielNopperUITests.m; sourceTree = "<group>"; };
+		D720F3831C593A88007EC02B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D720F3561C593A87007EC02B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D720F36F1C593A88007EC02B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D720F37A1C593A88007EC02B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D720F3501C593A87007EC02B = {
+			isa = PBXGroup;
+			children = (
+				D720F35B1C593A88007EC02B /* GabrielNopper */,
+				D720F3751C593A88007EC02B /* GabrielNopperTests */,
+				D720F3801C593A88007EC02B /* GabrielNopperUITests */,
+				D720F35A1C593A88007EC02B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D720F35A1C593A88007EC02B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D720F3591C593A88007EC02B /* GabrielNopper.app */,
+				D720F3721C593A88007EC02B /* GabrielNopperTests.xctest */,
+				D720F37D1C593A88007EC02B /* GabrielNopperUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D720F35B1C593A88007EC02B /* GabrielNopper */ = {
+			isa = PBXGroup;
+			children = (
+				D720F35F1C593A88007EC02B /* AppDelegate.h */,
+				D720F3601C593A88007EC02B /* AppDelegate.m */,
+				D720F3621C593A88007EC02B /* ViewController.h */,
+				D720F3631C593A88007EC02B /* ViewController.m */,
+				D720F3651C593A88007EC02B /* Main.storyboard */,
+				D720F3681C593A88007EC02B /* Assets.xcassets */,
+				D720F36A1C593A88007EC02B /* LaunchScreen.storyboard */,
+				D720F36D1C593A88007EC02B /* Info.plist */,
+				D720F35C1C593A88007EC02B /* Supporting Files */,
+			);
+			path = GabrielNopper;
+			sourceTree = "<group>";
+		};
+		D720F35C1C593A88007EC02B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D720F35D1C593A88007EC02B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D720F3751C593A88007EC02B /* GabrielNopperTests */ = {
+			isa = PBXGroup;
+			children = (
+				D720F3761C593A88007EC02B /* GabrielNopperTests.m */,
+				D720F3781C593A88007EC02B /* Info.plist */,
+			);
+			path = GabrielNopperTests;
+			sourceTree = "<group>";
+		};
+		D720F3801C593A88007EC02B /* GabrielNopperUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D720F3811C593A88007EC02B /* GabrielNopperUITests.m */,
+				D720F3831C593A88007EC02B /* Info.plist */,
+			);
+			path = GabrielNopperUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D720F3581C593A87007EC02B /* GabrielNopper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D720F3861C593A88007EC02B /* Build configuration list for PBXNativeTarget "GabrielNopper" */;
+			buildPhases = (
+				D720F3551C593A87007EC02B /* Sources */,
+				D720F3561C593A87007EC02B /* Frameworks */,
+				D720F3571C593A87007EC02B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GabrielNopper;
+			productName = GabrielNopper;
+			productReference = D720F3591C593A88007EC02B /* GabrielNopper.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D720F3711C593A88007EC02B /* GabrielNopperTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D720F3891C593A88007EC02B /* Build configuration list for PBXNativeTarget "GabrielNopperTests" */;
+			buildPhases = (
+				D720F36E1C593A88007EC02B /* Sources */,
+				D720F36F1C593A88007EC02B /* Frameworks */,
+				D720F3701C593A88007EC02B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D720F3741C593A88007EC02B /* PBXTargetDependency */,
+			);
+			name = GabrielNopperTests;
+			productName = GabrielNopperTests;
+			productReference = D720F3721C593A88007EC02B /* GabrielNopperTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D720F37C1C593A88007EC02B /* GabrielNopperUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D720F38C1C593A88007EC02B /* Build configuration list for PBXNativeTarget "GabrielNopperUITests" */;
+			buildPhases = (
+				D720F3791C593A88007EC02B /* Sources */,
+				D720F37A1C593A88007EC02B /* Frameworks */,
+				D720F37B1C593A88007EC02B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D720F37F1C593A88007EC02B /* PBXTargetDependency */,
+			);
+			name = GabrielNopperUITests;
+			productName = GabrielNopperUITests;
+			productReference = D720F37D1C593A88007EC02B /* GabrielNopperUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D720F3511C593A87007EC02B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = dev;
+				TargetAttributes = {
+					D720F3581C593A87007EC02B = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					D720F3711C593A88007EC02B = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = D720F3581C593A87007EC02B;
+					};
+					D720F37C1C593A88007EC02B = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = D720F3581C593A87007EC02B;
+					};
+				};
+			};
+			buildConfigurationList = D720F3541C593A87007EC02B /* Build configuration list for PBXProject "GabrielNopper" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D720F3501C593A87007EC02B;
+			productRefGroup = D720F35A1C593A88007EC02B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D720F3581C593A87007EC02B /* GabrielNopper */,
+				D720F3711C593A88007EC02B /* GabrielNopperTests */,
+				D720F37C1C593A88007EC02B /* GabrielNopperUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D720F3571C593A87007EC02B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D720F36C1C593A88007EC02B /* LaunchScreen.storyboard in Resources */,
+				D720F3691C593A88007EC02B /* Assets.xcassets in Resources */,
+				D720F3671C593A88007EC02B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D720F3701C593A88007EC02B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D720F37B1C593A88007EC02B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D720F3551C593A87007EC02B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D720F3641C593A88007EC02B /* ViewController.m in Sources */,
+				D720F3611C593A88007EC02B /* AppDelegate.m in Sources */,
+				D720F35E1C593A88007EC02B /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D720F36E1C593A88007EC02B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D720F3771C593A88007EC02B /* GabrielNopperTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D720F3791C593A88007EC02B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D720F3821C593A88007EC02B /* GabrielNopperUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D720F3741C593A88007EC02B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D720F3581C593A87007EC02B /* GabrielNopper */;
+			targetProxy = D720F3731C593A88007EC02B /* PBXContainerItemProxy */;
+		};
+		D720F37F1C593A88007EC02B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D720F3581C593A87007EC02B /* GabrielNopper */;
+			targetProxy = D720F37E1C593A88007EC02B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D720F3651C593A88007EC02B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D720F3661C593A88007EC02B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D720F36A1C593A88007EC02B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D720F36B1C593A88007EC02B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D720F3841C593A88007EC02B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D720F3851C593A88007EC02B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D720F3871C593A88007EC02B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GabrielNopper/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MobileTest1.GabrielNopper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D720F3881C593A88007EC02B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GabrielNopper/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MobileTest1.GabrielNopper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D720F38A1C593A88007EC02B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GabrielNopperTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MobileTest1.GabrielNopperTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GabrielNopper.app/GabrielNopper";
+			};
+			name = Debug;
+		};
+		D720F38B1C593A88007EC02B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GabrielNopperTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MobileTest1.GabrielNopperTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GabrielNopper.app/GabrielNopper";
+			};
+			name = Release;
+		};
+		D720F38D1C593A88007EC02B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GabrielNopperUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MobileTest1.GabrielNopperUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GabrielNopper;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		D720F38E1C593A88007EC02B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GabrielNopperUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MobileTest1.GabrielNopperUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GabrielNopper;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D720F3541C593A87007EC02B /* Build configuration list for PBXProject "GabrielNopper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D720F3841C593A88007EC02B /* Debug */,
+				D720F3851C593A88007EC02B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D720F3861C593A88007EC02B /* Build configuration list for PBXNativeTarget "GabrielNopper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D720F3871C593A88007EC02B /* Debug */,
+				D720F3881C593A88007EC02B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D720F3891C593A88007EC02B /* Build configuration list for PBXNativeTarget "GabrielNopperTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D720F38A1C593A88007EC02B /* Debug */,
+				D720F38B1C593A88007EC02B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D720F38C1C593A88007EC02B /* Build configuration list for PBXNativeTarget "GabrielNopperUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D720F38D1C593A88007EC02B /* Debug */,
+				D720F38E1C593A88007EC02B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D720F3511C593A87007EC02B /* Project object */;
+}
