@@ -15,6 +15,9 @@
 		D720F36C1C593A88007EC02B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D720F36A1C593A88007EC02B /* LaunchScreen.storyboard */; };
 		D720F3771C593A88007EC02B /* GabrielNopperTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D720F3761C593A88007EC02B /* GabrielNopperTests.m */; };
 		D720F3821C593A88007EC02B /* GabrielNopperUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D720F3811C593A88007EC02B /* GabrielNopperUITests.m */; };
+		D720F3921C594259007EC02B /* CollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D720F3901C594259007EC02B /* CollectionViewCell.m */; };
+		D720F3931C594259007EC02B /* CollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D720F3911C594259007EC02B /* CollectionViewCell.xib */; };
+		D720F3961C594E4B007EC02B /* Series.m in Sources */ = {isa = PBXBuildFile; fileRef = D720F3951C594E4B007EC02B /* Series.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,11 @@
 		D720F37D1C593A88007EC02B /* GabrielNopperUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GabrielNopperUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D720F3811C593A88007EC02B /* GabrielNopperUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GabrielNopperUITests.m; sourceTree = "<group>"; };
 		D720F3831C593A88007EC02B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D720F38F1C594259007EC02B /* CollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CollectionViewCell.h; path = ../CollectionViewCell.h; sourceTree = "<group>"; };
+		D720F3901C594259007EC02B /* CollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CollectionViewCell.m; path = ../CollectionViewCell.m; sourceTree = "<group>"; };
+		D720F3911C594259007EC02B /* CollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = CollectionViewCell.xib; path = ../CollectionViewCell.xib; sourceTree = "<group>"; };
+		D720F3941C594E4B007EC02B /* Series.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Series.h; sourceTree = "<group>"; };
+		D720F3951C594E4B007EC02B /* Series.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Series.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +116,11 @@
 				D720F3651C593A88007EC02B /* Main.storyboard */,
 				D720F3681C593A88007EC02B /* Assets.xcassets */,
 				D720F36A1C593A88007EC02B /* LaunchScreen.storyboard */,
+				D720F38F1C594259007EC02B /* CollectionViewCell.h */,
+				D720F3901C594259007EC02B /* CollectionViewCell.m */,
+				D720F3911C594259007EC02B /* CollectionViewCell.xib */,
+				D720F3941C594E4B007EC02B /* Series.h */,
+				D720F3951C594E4B007EC02B /* Series.m */,
 				D720F36D1C593A88007EC02B /* Info.plist */,
 				D720F35C1C593A88007EC02B /* Supporting Files */,
 			);
@@ -245,6 +258,7 @@
 			files = (
 				D720F36C1C593A88007EC02B /* LaunchScreen.storyboard in Resources */,
 				D720F3691C593A88007EC02B /* Assets.xcassets in Resources */,
+				D720F3931C594259007EC02B /* CollectionViewCell.xib in Resources */,
 				D720F3671C593A88007EC02B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -272,6 +286,8 @@
 			files = (
 				D720F3641C593A88007EC02B /* ViewController.m in Sources */,
 				D720F3611C593A88007EC02B /* AppDelegate.m in Sources */,
+				D720F3961C594E4B007EC02B /* Series.m in Sources */,
+				D720F3921C594259007EC02B /* CollectionViewCell.m in Sources */,
 				D720F35E1C593A88007EC02B /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
