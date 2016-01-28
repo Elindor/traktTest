@@ -107,11 +107,6 @@
                                               return;
                                           }
                                           
-                                          if ([response isKindOfClass:[NSHTTPURLResponse class]]) {
-                                              NSLog(@"Response HTTP Status code: %ld\n", (long)[(NSHTTPURLResponse *)response statusCode]);
-                                              NSLog(@"Response HTTP Headers:\n%@\n", [(NSHTTPURLResponse *)response allHeaderFields]);
-                                          }
-                                          
                                           NSMutableArray *acquiredResults = [[NSMutableArray alloc] init];
                                           NSMutableArray *treatedResults = [[NSMutableArray alloc] init];
                                           acquiredResults = [NSJSONSerialization JSONObjectWithData:data options:kNilOptions error:nil];
