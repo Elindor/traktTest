@@ -14,11 +14,5 @@
     // Initialization code
 }
 
--(void) setImage:(UIImage *)image {
-    
-    if(_imageView.image != image) {
-        _imageView.image = image;
-    }
-    self.imageView.image = image;
-}
+
 @end

@@ -16,11 +16,12 @@
 
 @implementation ViewController
 
+#pragma mark - VC basics
+
 - (void)viewDidLoad {
     [super viewDidLoad];
+    // Basic data setup
     _itemList = [[NSMutableArray alloc] init];
-    [self searchSeriesWithCompletionBlock:nil];
-    
     
     // Collection view setup
     self.collectionView.dataSource = self;
@@ -28,7 +29,9 @@
     
     [self.collectionView registerNib:[UINib nibWithNibName:@"CollectionViewCell" bundle:[NSBundle mainBundle]]forCellWithReuseIdentifier:@"CollectCell"];
     
-    [self searchSeriesWithCompletionBlock:nil];
+
+    // Begin first search
+    [self searchSeries];
 
 }
 
@@ -39,7 +42,7 @@
 
 
 
-#pragma mark - Datasource
+#pragma mark - Collection View Management
 
 - (NSInteger)numberOfSectionsInCollectionView: (UICollectionView *)collectionView {
     return 1;
@@ -62,8 +65,9 @@
 }
 
 
+#pragma mark - Search engine
 
-- (void)searchSeriesWithCompletionBlock:(traktCompletionBlock) completionBlock
+- (void)searchSeries
 {
     
     NSString *searchURL = getTrendingKey;

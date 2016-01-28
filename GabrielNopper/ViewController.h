@@ -16,10 +16,6 @@
 
 #define getTrendingKey @"https://api-v2launch.trakt.tv/shows/popular?extended=images"
 
-typedef void (^traktCompletionBlock)(NSString *searchTerm, NSArray *results, NSError *error);
-typedef void (^traktImageCompletionBlock)(UIImage *photoImage, NSError *error);
-
-
 @interface ViewController : UIViewController
 @property(nonatomic, weak) IBOutlet UICollectionView *collectionView;
 @property(nonatomic, strong) NSMutableArray *searches;
