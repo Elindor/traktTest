@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="MvZ-Ns-8YF">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9060" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="MvZ-Ns-8YF">
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
-        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9051"/>
     </dependencies>
     <scenes>
         <!--Navigation Controller-->
@@ -13,6 +12,7 @@
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="fdq-PW-qTe">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <color key="barTintColor" white="0.81539554195804198" alpha="1" colorSpace="calibratedWhite"/>
                     </navigationBar>
                     <connections>
                         <segue destination="a87-3N-PWN" kind="relationship" relationship="rootViewController" id="drD-og-thJ"/>
@@ -22,7 +22,7 @@
             </objects>
             <point key="canvasLocation" x="-394" y="350"/>
         </scene>
-        <!--View Controller-->
+        <!--Top Series-->
         <scene sceneID="06s-Tw-Jed">
             <objects>
                 <viewController id="a87-3N-PWN" customClass="ViewController" sceneMemberID="viewController">
@@ -35,47 +35,36 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="qgs-Tt-G6L">
-                                <rect key="frame" x="0.0" y="64" width="600" height="536"/>
+                                <rect key="frame" x="6" y="11" width="600" height="589"/>
                                 <color key="backgroundColor" red="0.14594240837696337" green="0.14594240837696337" blue="0.14594240837696337" alpha="1" colorSpace="calibratedRGB"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="tpc-e3-JKQ">
-                                    <size key="itemSize" width="94" height="131"/>
+                                    <size key="itemSize" width="118" height="204"/>
                                     <size key="headerReferenceSize" width="0.0" height="0.0"/>
                                     <size key="footerReferenceSize" width="0.0" height="0.0"/>
                                     <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 </collectionViewFlowLayout>
                                 <cells>
-                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="SeriesCell" id="EIV-Ux-N2V" customClass="CollectionViewCell">
-                                        <rect key="frame" x="0.0" y="64" width="94" height="131"/>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="StoryCellView" id="EIV-Ux-N2V" customClass="CollectionViewCell">
+                                        <rect key="frame" x="0.0" y="64" width="118" height="204"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
-                                            <rect key="frame" x="0.0" y="0.0" width="94" height="131"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="118" height="204"/>
                                             <autoresizingMask key="autoresizingMask"/>
-                                            <subviews>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="c5c-BS-fsN">
-                                                    <rect key="frame" x="0.0" y="0.0" width="94" height="131"/>
-                                                </imageView>
-                                            </subviews>
                                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                         </view>
-                                        <constraints>
-                                            <constraint firstAttribute="trailing" secondItem="c5c-BS-fsN" secondAttribute="trailing" id="Guz-5i-rwa"/>
-                                            <constraint firstItem="c5c-BS-fsN" firstAttribute="leading" secondItem="EIV-Ux-N2V" secondAttribute="leading" id="ISb-Bl-3vC"/>
-                                            <constraint firstAttribute="bottomMargin" secondItem="c5c-BS-fsN" secondAttribute="bottom" constant="-8" id="n5B-Ye-ohT"/>
-                                            <constraint firstItem="c5c-BS-fsN" firstAttribute="top" secondItem="EIV-Ux-N2V" secondAttribute="top" id="xfx-4R-CAy"/>
-                                        </constraints>
                                     </collectionViewCell>
                                 </cells>
                             </collectionView>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.14594240837696337" green="0.14594240837696337" blue="0.14594240837696337" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
-                            <constraint firstAttribute="trailing" secondItem="qgs-Tt-G6L" secondAttribute="trailing" id="3QV-Jo-tzn"/>
-                            <constraint firstItem="qgs-Tt-G6L" firstAttribute="top" secondItem="UTc-IE-39Q" secondAttribute="bottom" id="YW5-I5-nh5"/>
-                            <constraint firstItem="qgs-Tt-G6L" firstAttribute="leading" secondItem="opZ-zM-qR9" secondAttribute="leading" id="uib-gu-3Zk"/>
+                            <constraint firstAttribute="trailing" secondItem="qgs-Tt-G6L" secondAttribute="trailing" constant="-6" id="3QV-Jo-tzn"/>
+                            <constraint firstItem="qgs-Tt-G6L" firstAttribute="top" secondItem="UTc-IE-39Q" secondAttribute="bottom" constant="-53" id="YW5-I5-nh5"/>
+                            <constraint firstItem="qgs-Tt-G6L" firstAttribute="leading" secondItem="opZ-zM-qR9" secondAttribute="leading" constant="6" id="uib-gu-3Zk"/>
                             <constraint firstItem="qgs-Tt-G6L" firstAttribute="bottom" secondItem="60b-gW-tD1" secondAttribute="top" id="ym1-wK-RYh"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="uK0-xk-zYD"/>
+                    <navigationItem key="navigationItem" title="Top Series" id="uK0-xk-zYD"/>
                     <connections>
                         <outlet property="collectionView" destination="qgs-Tt-G6L" id="y0J-ea-uBg"/>
                     </connections>
